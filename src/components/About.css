@@ -1,0 +1,116 @@
+.about-section {
+  padding: 4rem 2rem;
+  background-color: var(--background);
+  color: var(--text);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--accent);
+  margin: 10px auto 0;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.about-content h3 {
+  font-size: 1.8rem;
+  color: var(--accent);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.skills-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.8rem;
+  padding-left: 0;
+}
+
+.skills-list li {
+  background-color: var(--secondary);
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  color: var(--text);
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.skills-list li:hover {
+  background-color: var(--primary);
+  transform: translateY(-3px);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--background);
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 3rem 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+
+  .about-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .skills-list {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+
+  .skills-list li {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.9rem;
+  }
+  .btn-primary {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+.center-button {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about-intro {
+  margin-bottom: 3rem;
+}

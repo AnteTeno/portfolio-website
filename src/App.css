@@ -1,0 +1,19 @@
+.about-section, .projects-section, .contact-section {
+  border-bottom: 1px solid var(--border);
+}
+
+.btn-small {
+  background-color: var(--primary);
+  color: var(--background);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.btn-small:hover {
+  background-color: var(--accent);
+  color: var(--background);
+}

@@ -1,0 +1,16 @@
+.story-section {
+  padding: 4rem 2rem;
+  background-color: var(--background);
+  color: var(--text);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.story-content {
+  text-align: center;
+}
+
+.story-content p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}

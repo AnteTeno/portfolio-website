@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+
+:root {
+  --background: #1a1a2e;
+  --text: #e0e0e0;
+  --primary: #00adb5; /* A shade of cyan/teal */
+  --secondary: #3f3f5f;
+  --accent: #00f5d4; /* A soft green/cyan for highlights */
+  --border: #2e2e4a;
+  --font-family-main: 'Inter', sans-serif;
+  --font-family-code: 'Fira Code', monospace; /* Will add Fira Code later if needed */
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+code {
+  font-family: var(--font-family-code);
+}
+
+/* Global Reset and Base Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text);
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 1em;
+}
