@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <aside className="sidebar">
       <div className="sidebar-header">
-        <img src="/LOGOFINAL.png" alt="Portfolio Logo" className="sidebar-logo" />
+        <img src="/LOGOFINAL1.png" alt="Portfolio Logo" className="sidebar-logo" />
         <p className="sidebar-role">Ánte Tenoranta</p>
       </div>
       <nav className="sidebar-nav">

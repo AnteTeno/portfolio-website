@@ -4,22 +4,22 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
-      name: 'Project Alpha',
-      description: 'A brief description of what this project does and the technologies used.',
-      imageUrl: 'https://via.placeholder.com/300', // Placeholder for project screenshot
-      githubUrl: '#'
+      name: 'CS skin arbitrage bot (Under development)',
+      description: 'CS skin arbitrage bot scans CSGOEmpire auction items for underpriced items, and flags them for purchase. Built using Python, Streamlit, and SQLite for database.',
+      imageUrl: 'cslogo.png', 
+      githubUrl: 'https://github.com/AnteTeno/cs_skinbot'
     },
     {
-      name: 'Project Beta',
-      description: 'A brief description of what this project does and the technologies used.',
-      imageUrl: 'https://via.placeholder.com/300', // Placeholder for project screenshot
-      githubUrl: '#'
+      name: 'Datastructures and Algorithms course repository',
+      description: 'Repository containing solutions and implementations for various data structures and algorithms as part of a university course. Implemented in Java.',
+      imageUrl: 'datastructures.png', 
+      githubUrl: 'https://github.com/AnteTeno/Data-structures-and-algorithms'
     },
     {
-      name: 'Project Gamma',
-      description: 'A brief description of what this project does and the technologies used.',
-      imageUrl: 'https://via.placeholder.com/300', // Placeholder for project screenshot
-      githubUrl: '#'
+      name: 'Leetcode solutions',
+      description: 'A collection of solutions to various coding problems from Leetcode, implemented in Python. Covers a wide range of topics including arrays, strings, algorithms, and data structures.',
+      imageUrl: 'leetcode.png', 
+      githubUrl: 'https://github.com/AnteTeno/LeetCode'
     }
   ];
 
