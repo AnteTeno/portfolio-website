@@ -5,8 +5,7 @@ const Hero = () => {
   return (
     <section id="hero" className="hero-section">
       <div className="hero-content">
-        <img src="/IMG_4882.jpeg" alt="Your Name" className="hero-image" />
-        <div>
+        <div className="hero-text">
           <p className="hero-subtitle">Hi, my name is</p>
           <h1 className="hero-title">Ánte.</h1>
           <h2 className="hero-tagline">I’m a computer science student specializing in cybersecurity, 
@@ -17,6 +16,7 @@ const Hero = () => {
             <a href="#story" className="btn btn-primary">Read my story</a>
           </div>
         </div>
+        <img src="/IMG_4882.jpeg" alt="Your Name" className="hero-image" />
       </div>
     </section>
   );

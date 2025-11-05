@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section id="about" className="about-section">
       <div className="about-content">
-        <h3>What can I do?</h3>
+        <h3>Here is a list of my skills:</h3>
         <ul className="skills-list">
           <li><i className="devicon-java-plain colored"></i> Java</li>
           <li><i className="devicon-python-plain colored"></i> Python</li>
