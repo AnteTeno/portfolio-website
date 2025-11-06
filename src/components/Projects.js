@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [
     {
       name: 'CS skin arbitrage bot (Under development)',
-      description: 'CS skin arbitrage bot scans CSGOEmpire auction items for underpriced items, and flags them for purchase. Built using Python, Streamlit, and SQLite for database.',
+      description: 'CS Skinbot is a Counter-Strike skin trading application that fetches deal data from CSGOEmpire API, analyzes market trends, and identifies profitable trading opportunities. The application consists of a FastAPI backend and a React frontend with user authentication.' ,
       imageUrl: 'cslogo.png', 
       githubUrl: 'https://github.com/AnteTeno/cs_skinbot'
     },
