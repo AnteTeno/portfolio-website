@@ -19,9 +19,9 @@ const Sidebar = () => {
         </ul>
       </nav>
       <div className="sidebar-social-links">
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-        <a href="mailto:youremail@example.com"><FaEnvelope /></a>
+        <a href="https://github.com/AnteTeno" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+        <a href="https://www.linkedin.com/in/ante-tenoranta-71865a28b/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+        <a href="mailto:tenoranta@gmail.com"><FaEnvelope /></a>
       </div>
     </aside>
   );

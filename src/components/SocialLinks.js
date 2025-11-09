@@ -3,9 +3,9 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const SocialLinks = () => {
   // Add your profile URLs and email below
-  const githubUrl = 'https://github.com/yourprofile';
-  const linkedinUrl = 'https://linkedin.com/in/yourprofile';
-  const email = 'your.email@example.com';
+  const githubUrl = 'https://github.com/AnteTeno';
+  const linkedinUrl = 'https://www.linkedin.com/in/ante-tenoranta-71865a28b/';
+  const email = 'tenoranta@gmail.com';
 
   return (
     <div className="social-links">
