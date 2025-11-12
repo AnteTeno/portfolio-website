@@ -8,8 +8,8 @@ const Hero = () => {
         <div className="hero-text">
           <p className="hero-subtitle">Hi, my name is</p>
           <h1 className="hero-title">Ánte.</h1>
-          <h2 className="hero-tagline">I’m a computer science student specializing in cybersecurity, 
-            but I love exploring everything from web development to software engineering and beyond. 
+          <h2 className="hero-tagline">I’m a computer science student with the module-of-option in cybersecurity, 
+            but I love exploring everything from AI to software engineering and beyond. 
             Check out my projects and get to know more about me!</h2>
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">View My Work</a>

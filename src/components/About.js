@@ -13,10 +13,11 @@ const About = () => {
           <li><i className="devicon-linux-plain colored"></i> Linux </li>
           <li><i className="devicon-javascript-plain colored"></i> JavaScript </li>
           <li><i className="devicon-react-original colored"></i> React.js</li>
-          <li><i className="devicon-nodejs-plain colored"></i> Node.js</li>
           <li><i className="devicon-html5-plain colored"></i> HTML5</li>
           <li><i className="devicon-css3-plain colored"></i> CSS3</li>
-           <li><i className="devicon-git-plain colored"></i> Git <i className="devicon-github-plain colored"></i> GitHub</li>
+          <li><i className="devicon-git-plain colored"></i> Git <i className="devicon-github-plain colored"></i> GitHub</li>
+          <li><i className="devicon-docker-plain colored"></i> Docker</li>
+          <li><i className="devicon-docker-plain colored"></i> Docker</li>
         </ul>
       </div>
     </section>
