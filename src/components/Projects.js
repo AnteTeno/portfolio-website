@@ -20,6 +20,12 @@ const Projects = () => {
       description: 'A collection of solutions to various coding problems from Leetcode, implemented in Python. Covers a wide range of topics including arrays, strings, algorithms, and data structures.',
       imageUrl: 'leetcode.png', 
       githubUrl: 'https://github.com/AnteTeno/LeetCode'
+    },
+    {
+      name: 'Portfolio website',
+      description: 'A personal portfolio website showcasing my projects, experience, and journey in computer science and engineering.',
+      imageUrl: 'portfolio-website.png', 
+      githubUrl: 'https://github.com/AnteTeno/portfolio-website'
     }
   ];
 

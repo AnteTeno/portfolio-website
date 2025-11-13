@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sidebar.css';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'; // Assuming react-icons is installed
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'; 
 
 const Sidebar = () => {
   return (
@@ -13,6 +13,7 @@ const Sidebar = () => {
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
+          <li><a href="#academic">Study progress</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#story">My Story</a></li>
           <li><a href="#contact">Contact</a></li>

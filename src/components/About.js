@@ -17,7 +17,7 @@ const About = () => {
           <li><i className="devicon-css3-plain colored"></i> CSS3</li>
           <li><i className="devicon-git-plain colored"></i> Git <i className="devicon-github-plain colored"></i> GitHub</li>
           <li><i className="devicon-docker-plain colored"></i> Docker</li>
-          <li><i className="devicon-docker-plain colored"></i> Docker</li>
+
         </ul>
       </div>
     </section>

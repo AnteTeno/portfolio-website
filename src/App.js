@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Story from './components/Story';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import AcademicRecord from './components/AcademicRecord';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Hero />
         <About />
         <Experience />
+        <AcademicRecord />
         <Projects />
         <Story />
         <Contact />
