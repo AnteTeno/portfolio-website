@@ -8,7 +8,7 @@ const AcademicRecord = () => {
     startYear: "2023",
     expectedGraduation: "2025",
     specialization: "Cybersecurity",
-    creditsCompleted: 143,
+    creditsCompleted: 148,
     creditsTotal: 180
   };
 

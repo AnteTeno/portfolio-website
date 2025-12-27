@@ -4,7 +4,19 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
-      name: 'CS skin arbitrage bot (Under development)',
+      name: 'YO-prep Spring boot app (Under development)',
+      description: 'REST API for YO exam prep data. Java 21 + Spring Boot 4.0 + JSoup web scraping. ' ,
+      imageUrl: 'yoprep.png', 
+      githubUrl: 'https://github.com/AnteTeno/yo-prep'
+    },
+    {
+      name: 'Course Software quality and testing at University of Oulu',
+      description: 'Course Software quality and testing, where I implented unit testing with JUnit5, achieving 90% code coverage. TDD methodology. ' ,
+      imageUrl: 'junit5.png', 
+      githubUrl: 'https://github.com/AnteTeno/sw-quality-and-testing'
+    },
+    {
+      name: 'CS skin arbitrage bot',
       description: 'CS Skinbot is a Counter-Strike skin trading application that fetches deal data from CSGOEmpire API, analyzes market trends, and identifies profitable trading opportunities. The application consists of a FastAPI backend and a React frontend with user authentication.' ,
       imageUrl: 'cslogo.png', 
       githubUrl: 'https://github.com/AnteTeno/cs_skinbot'
