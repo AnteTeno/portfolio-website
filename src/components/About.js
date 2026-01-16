@@ -15,9 +15,17 @@ const About = () => {
           <li><i className="devicon-react-original colored"></i> React.js</li>
           <li><i className="devicon-html5-plain colored"></i> HTML5</li>
           <li><i className="devicon-css3-plain colored"></i> CSS3</li>
-          <li><i className="devicon-git-plain colored"></i> Git <i className="devicon-github-plain colored"></i> GitHub</li>
+          <li><i className="devicon-git-plain colored"></i> Git</li>
+          <li><i className="devicon-github-plain colored"></i> GitHub </li>
           <li><i className="devicon-docker-plain colored"></i> Docker</li>
-
+          <li><i className="devicon-fastapi-plain colored"></i> FastAPI</li>
+          <li><i className="devicon-bash-plain colored"></i> Bash</li>
+          <li><i className="devicon-vscode-plain colored"></i> VSCode</li>
+          <li><i className="devicon-intellij-plain colored"></i> IntellijIdea</li>
+          <li><i className="devicon-maven-plain colored"></i>Maven</li>
+          <li><i className="devicon-jetpackcompose-plain colored"></i>Jetpack Compose</li>
+          <li><i className="devicon-kotlin-plain colored"></i> Kotlin</li>
+          <li><i className="devicon-androidstudio-plain colored"></i> Android Studio</li>
         </ul>
       </div>
     </section>

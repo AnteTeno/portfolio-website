@@ -8,7 +8,7 @@ const AcademicRecord = () => {
     startYear: "2023",
     expectedGraduation: "2025",
     specialization: "Cybersecurity",
-    creditsCompleted: 143,
+    creditsCompleted: 158,
     creditsTotal: 180
   };
 
@@ -26,8 +26,7 @@ const AcademicRecord = () => {
 
         <div className="progress-bar-container">
           <div className="progress-info">
-            <span>Degree Progress</span>
-            <span>{degreeInfo.creditsCompleted} / {degreeInfo.creditsTotal} credits ({Math.round((degreeInfo.creditsCompleted / degreeInfo.creditsTotal) * 100)}%)</span>
+            <span>Progress: {degreeInfo.creditsCompleted} / {degreeInfo.creditsTotal} credits ({Math.round((degreeInfo.creditsCompleted / degreeInfo.creditsTotal) * 100)}%)</span>
           </div>
           <div className="progress-bar">
             <div

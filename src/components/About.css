@@ -65,7 +65,7 @@
   background-color: var(--secondary);
   padding: 0.7rem 1rem;
   border-radius: 5px;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   color: var(--text);
   text-align: center;
   transition: background-color 0.3s ease, transform 0.3s ease;

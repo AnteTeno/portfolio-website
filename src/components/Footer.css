@@ -3,8 +3,7 @@
   color: var(--text);
   text-align: center;
   padding: 2rem;
-  border-top: 1px solid var(--border);
-  margin-left: 250px; /* Same width as sidebar */
+  border-top: 1px solid var(--border); /* Same width as sidebar */
 }
 
 .footer p {

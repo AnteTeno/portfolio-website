@@ -3,16 +3,28 @@ import './Projects.css';
 
 const Projects = () => {
   const projects = [
+     {
+      name: 'YO-prep (on-going)',
+      description: 'YOPrep is a Spring-boot REST API + React frontend application for Finnish matriculation exam practice, featuring flexible JSON-based question storage, and user authentication with BCrypt' ,
+      imageUrl: 'yolakki.png', 
+      githubUrl: 'https://github.com/AnteTeno/yo-prep'
+    },
     {
-      name: 'CS skin arbitrage bot (Under development)',
-      description: 'CS Skinbot is a Counter-Strike skin trading application that fetches deal data from CSGOEmpire API, analyzes market trends, and identifies profitable trading opportunities. The application consists of a FastAPI backend and a React frontend with user authentication.' ,
+      name: 'Mobile Computing coursework',
+      description: 'Repository for University of Oulu course Mobile Computing, where we learned about moblie development, Kotlin, Android Studio and Jetpack Compose.' ,
+      imageUrl: 'unioulu.png', 
+      githubUrl: 'https://github.com/AnteTeno/yo-prep'
+    },
+    {
+      name: 'CS skin arbitrage bot',
+      description: 'CS Skinbot is a Counter-Strike skin trading application that fetches deal data from CSGOEmpire API and saves it to database for market analysis. The application consists of a FastAPI backend and a React frontend with user authentication.' ,
       imageUrl: 'cslogo.png', 
       githubUrl: 'https://github.com/AnteTeno/cs_skinbot'
     },
     {
       name: 'Datastructures and Algorithms course repository',
       description: 'Repository containing solutions and implementations for various data structures and algorithms as part of a university course. Implemented in Java.',
-      imageUrl: 'datastructures.png', 
+      imageUrl: 'unioulu.png', 
       githubUrl: 'https://github.com/AnteTeno/Data-structures-and-algorithms'
     },
     {

@@ -11,7 +11,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/ante-tenoranta-71865a28b/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
         <a href="mailto:tenoranta@gmail.com"><FaEnvelope /></a>
       </div>
-      <p>&copy; {new Date().getFullYear()} Ante Tenoranta. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} Ante Tenoranta</p>
     </footer>
   );
 }

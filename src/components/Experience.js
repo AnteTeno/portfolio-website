@@ -7,7 +7,7 @@ const Experience = () => {
       title: 'Student',
       company: 'University of Oulu',
       years: '2023 - Present',
-      description: 'Pursuing a Bachelor\'s degree in Computer Science with a focus on cybersecurity and software development. Engaged in various projects and coursework that enhance problem-solving skills and technical knowledge.'
+      description: 'Pursuing a Bachelor\'s degree in Computer Science with a focus on cybersecurity. Engaged in various projects and coursework that improve my problem-solving skills and technical knowledge.'
     },
     {
       title: 'Construction worker',
@@ -25,7 +25,7 @@ const Experience = () => {
       title: 'Kindergarten Assistant',
       company: 'Diddimanáidgardi, Tana Norway',
       years: 'February-June 2023',
-      description: '- Supported daily classroom activities and provided attentive care for children aged 2–6 in a bilingual learning environment. Planned and implemented engaging lessons and activities that promoted social, emotional, and cognitive development Fostered a safe, nurturing, and inclusive atmosphere encouraging curiosity and growth Collaborated closely with teachers, parents, and staff to ensure consistent communication and support for each child’s development.'
+      description: 'Supported daily classroom activities and provided attentive care for children aged 2–6 in a bilingual learning environment. Planned and implemented engaging lessons and activities that promoted social, emotional, and cognitive development Fostered a safe, nurturing, and inclusive atmosphere encouraging curiosity and growth Collaborated closely with teachers, parents, and staff to ensure consistent communication and support for each child’s development.'
     },
   ];
 
