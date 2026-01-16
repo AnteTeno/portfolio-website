@@ -12,13 +12,19 @@ const Projects = () => {
     {
       name: 'Mobile Computing coursework',
       description: 'Repository for University of Oulu course Mobile Computing, where we learned about moblie development, Kotlin, Android Studio and Jetpack Compose.' ,
-      imageUrl: 'unioulu.png', 
+      imageUrl: 'unioulu.png',
       githubUrl: 'https://github.com/AnteTeno/yo-prep'
+    },
+    {
+      name: 'Course Software quality and testing at University of Oulu',
+      description: 'Course Software quality and testing, where I implented unit testing with JUnit5, achieving 90% code coverage. TDD methodology. ' ,
+      imageUrl: 'junit5.png',
+      githubUrl: 'https://github.com/AnteTeno/sw-quality-and-testing'
     },
     {
       name: 'CS skin arbitrage bot',
       description: 'CS Skinbot is a Counter-Strike skin trading application that fetches deal data from CSGOEmpire API and saves it to database for market analysis. The application consists of a FastAPI backend and a React frontend with user authentication.' ,
-      imageUrl: 'cslogo.png', 
+      imageUrl: 'cslogo.png',
       githubUrl: 'https://github.com/AnteTeno/cs_skinbot'
     },
     {
